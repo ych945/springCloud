@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: zookeeper-server
+  cloud:
+    zookeeper:
+
+      connect-string: 192.168.1.103:2181
+      discovery:
+        root: spring-cloud-service
+        enabled: true
+        register: true
