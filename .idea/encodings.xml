@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/eurake-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurake_client__consumer_feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurake_client_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zookeeper-client-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zookeeper-server" charset="UTF-8" />
   </component>
 </project>

@@ -38,6 +38,7 @@
        <module>eurake-zuul</module>
        <module>eurake-server</module>
        <module>zookeeper-server</module>
+       <module>zookeeper-client-consumer</module>
    </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

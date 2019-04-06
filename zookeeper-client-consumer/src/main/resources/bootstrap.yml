@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: zookeeper-server
+    name: zookeeper-client-consumer
   cloud:
     zookeeper:
 

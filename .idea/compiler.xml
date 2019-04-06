@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eurake-server" />
+        <module name="eurake-zuul" />
         <module name="eurake_client__consumer_feign" />
+        <module name="eurake_client_consumer_feign" />
         <module name="eurake_client_provider" />
         <module name="eurakeserver" />
         <module name="eurakezuul" />
+        <module name="zookeeper-server" />
+        <module name="zookeeperclientconsumer" />
         <module name="zookeeperserver" />
       </profile>
     </annotationProcessing>
