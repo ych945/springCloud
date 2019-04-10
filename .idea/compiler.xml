@@ -13,6 +13,8 @@
         <module name="eurake_client_provider" />
         <module name="eurakeserver" />
         <module name="eurakezuul" />
+        <module name="springcloudgateway" />
+        <module name="zookeeper-client-consumer" />
         <module name="zookeeper-server" />
         <module name="zookeeperclientconsumer" />
         <module name="zookeeperserver" />
@@ -29,6 +31,8 @@
       <module name="eurake_client_provider" options="" />
       <module name="eurakeserver" options="" />
       <module name="eurakezuul" options="" />
+      <module name="springcloudgateway" options="-parameters" />
+      <module name="zookeeper-client-consumer" options="" />
       <module name="zookeeperserver" options="" />
     </option>
   </component>

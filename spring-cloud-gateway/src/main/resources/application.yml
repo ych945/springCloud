@@ -1,0 +1,28 @@
+server:
+  port: 9987
+
+spring:
+  security:
+    user:
+      name: ych
+      password: ych
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+  health:
+    sensitive: false
+
+logging.level:
+  org.apache.zookeeper.ClientCnxn: ERROR
+
+management:
+  security:
+    enabled: false
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
+    org.springframework.http.server.reactive: debug
+    org.springframework.web.reactive: debug
+    reactor.ipc.netty: debug
